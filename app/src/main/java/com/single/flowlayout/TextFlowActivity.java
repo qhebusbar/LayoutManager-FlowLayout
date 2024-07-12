@@ -2,8 +2,7 @@ package com.single.flowlayout;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
+
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.single.flowlayout.R.id.flow;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class TextFlowActivity extends AppCompatActivity {
     private static final String TAG = TextFlowActivity.class.getSimpleName();
